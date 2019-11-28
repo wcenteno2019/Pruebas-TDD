@@ -4,4 +4,4 @@ management:
   endpoints.web.base-path: /
 spring:
   profiles:
-    active: testing
+    active: local

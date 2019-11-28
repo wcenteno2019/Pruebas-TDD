@@ -16,3 +16,5 @@ spring:
                lob:
                   non_contextual_creation: true
             default_schema: lmd_recpay_svc
+app-properties:
+   client-repository: ClientRepository
