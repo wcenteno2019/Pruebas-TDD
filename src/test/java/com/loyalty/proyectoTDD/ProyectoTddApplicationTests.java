@@ -39,4 +39,9 @@ class ProyectoTddApplicationTests {
 	void clientExistsTest(){
 		Assert.assertTrue(iClient.existClient("12345678910"));
 	}
+
+	@Test
+	void clientDoesntExistTest(){
+		Assert.assertFalse(iClient.existClient("12345078910"));
+	}
 }
