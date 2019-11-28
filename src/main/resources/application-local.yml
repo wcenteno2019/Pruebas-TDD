@@ -3,7 +3,7 @@ spring:
       driver-class-name: org.postgresql.Driver
       url: jdbc:postgresql://localhost:5432/postgres?currentSchema=lmd_recpay_svc
       username: postgres
-      password: avianca.2030
+      password: lifemiles.2020
    jpa:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       show-sql: true
